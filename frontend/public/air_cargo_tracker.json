@@ -1,0 +1,1710 @@
+[
+  {
+    "name": "7Air Cargo",
+    "iata": [],
+    "prefix": ["567"],
+    "url": "https://7aircargo.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Aegean Airlines",
+    "iata": ["A3"],
+    "prefix": ["390"],
+    "url": "https://en.about.aegeanair.com/company/services/cargo/cargo-services/",
+    "partial_integration": false
+  },
+  {
+    "name": "Aercaribe Cargo",
+    "iata": ["JK"],
+    "prefix": ["543"],
+    "url": "https://aercaribe.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Aerolineas Argentinas",
+    "iata": ["AR"],
+    "prefix": ["044"],
+    "url": "https://cargo.aerolineas.com.ar/",
+    "partial_integration": false
+  },
+  {
+    "name": "Aeroméxico Cargo",
+    "iata": ["AM"],
+    "prefix": ["976", "139"],
+    "url": "https://amcargo.aeromexico.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "AF-KL-MP Cargo",
+    "iata": ["AF", "KL", "MP"],
+    "prefix": ["057", "074"],
+    "url": "https://www.afklcargo.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Afcom Cargo",
+    "iata": ["MP"],
+    "prefix": ["198"],
+    "url": "https://afcomcargo.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Air Algerie",
+    "iata": ["AH"],
+    "prefix": ["124"],
+    "url": "https://airalgeriecargo.dz/en/",
+    "partial_integration": false
+  },
+  {
+    "name": "Air Anka",
+    "iata": ["6K"],
+    "prefix": ["919"],
+    "url": "https://airanka.com.tr/",
+    "partial_integration": false
+  },
+  {
+    "name": "Air Arabia",
+    "iata": ["G9", "E5", "3L", "3O"],
+    "prefix": ["514", "844", "049", "452"],
+    "url": "https://cargo.airarabia.com/",
+    "partial_integration": true
+  },
+  {
+    "name": "Air Asia",
+    "iata": ["QZ", "AK", "D7", "XJ", "FD", "Z2"],
+    "prefix": ["843", "807", "975", "940", "900", "457"],
+    "url": "https://www.airasia.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Air Astana",
+    "iata": ["KC"],
+    "prefix": ["465"],
+    "url": "https://airastana.com/global-en/information/cargo-services",
+    "partial_integration": false
+  },
+  {
+    "name": "Air Baltic",
+    "iata": ["BT"],
+    "prefix": ["657"],
+    "url": "https://www.airbaltic.com/en/cargo",
+    "partial_integration": false
+  },
+  {
+    "name": "Air Belgium",
+    "iata": ["KF"],
+    "prefix": ["142", "550"],
+    "url": "https://www.airbelgiumcargo.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Air Cairo",
+    "iata": [],
+    "prefix": ["381"],
+    "url": "https://aircairo.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Air Canada Cargo",
+    "iata": ["AC"],
+    "prefix": ["014"],
+    "url": "https://www.aircanada.com/cargo/en/",
+    "partial_integration": false
+  },
+  {
+    "name": "Air Changan",
+    "iata": ["9H"],
+    "prefix": ["856"],
+    "url": "https://www.airchangan.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Air China",
+    "iata": ["CA"],
+    "prefix": ["999"],
+    "url": "https://www.airchinacargo.com/en/",
+    "partial_integration": false
+  },
+  {
+    "name": "Air Corsica",
+    "iata": ["XK"],
+    "prefix": ["146"],
+    "url": "https://www.aircorsica.com/flights/freight.html",
+    "partial_integration": false
+  },
+  {
+    "name": "Air Côte d'Ivoire",
+    "iata": [],
+    "prefix": ["483"],
+    "url": "https://www.aircotedivoire.com/en/freight/air-cargo/",
+    "partial_integration": false
+  },
+  {
+    "name": "Air Europa",
+    "iata": ["UX"],
+    "prefix": ["996"],
+    "url": "https://cargo.aireuropa.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Air Greenland",
+    "iata": ["GL"],
+    "prefix": ["631"],
+    "url": "https://www.airgreenland.com/cargo",
+    "partial_integration": false
+  },
+  {
+    "name": "Air Hong Kong",
+    "iata": ["LD"],
+    "prefix": ["288"],
+    "url": "https://www.airhongkong.com.hk/",
+    "partial_integration": true
+  },
+  {
+    "name": "Air India",
+    "iata": ["AI"],
+    "prefix": ["098"],
+    "url": "https://cargo.airindia.com/",
+    "partial_integration": true
+  },
+  {
+    "name": "Air Inuit",
+    "iata": ["3H"],
+    "prefix": ["466"],
+    "url": "https://www.airinuit.com/en/cargo/cargo-services",
+    "partial_integration": false
+  },
+  {
+    "name": "Air Macau Cargo",
+    "iata": ["NX"],
+    "prefix": ["675"],
+    "url": "http://www.airmacau.com.mo/",
+    "partial_integration": false
+  },
+  {
+    "name": "Air Madagascar",
+    "iata": ["MD"],
+    "prefix": ["258"],
+    "url": "https://madagascarairlines.com/en/informations/shipping-your-cargo-with-madagascar-airlines",
+    "partial_integration": false
+  },
+  {
+    "name": "Air Mauritius",
+    "iata": ["MK"],
+    "prefix": ["239"],
+    "url": "https://www.airmauritius.com/cargo",
+    "partial_integration": false
+  },
+  {
+    "name": "Air New Zealand",
+    "iata": ["NZ"],
+    "prefix": ["086"],
+    "url": "https://www.airnewzealandcargo.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Air Niugini",
+    "iata": ["PX"],
+    "prefix": ["656"],
+    "url": "https://www.airniugini.com.pg/cargo/",
+    "partial_integration": false
+  },
+  {
+    "name": "Air Premia",
+    "iata": ["YP"],
+    "prefix": ["350"],
+    "url": "https://cargo.airpremia.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Air Senegal",
+    "iata": ["HC"],
+    "prefix": ["490"],
+    "url": "https://flyairsenegal.com/en/",
+    "partial_integration": false
+  },
+  {
+    "name": "Air Serbia",
+    "iata": ["JU"],
+    "prefix": ["115"],
+    "url": "https://cargo.airserbia.com/en",
+    "partial_integration": false
+  },
+  {
+    "name": "Air Seychelles",
+    "iata": ["HM"],
+    "prefix": ["061"],
+    "url": "https://www.airseychelles.com/en/travel-info/domestic-cargo",
+    "partial_integration": false
+  },
+  {
+    "name": "Air Tahiti Nui",
+    "iata": ["TN"],
+    "prefix": ["244"],
+    "url": "https://www.airtahitinui.com/us-en/cargo-services",
+    "partial_integration": false
+  },
+  {
+    "name": "Air Tanzania",
+    "iata": ["TC"],
+    "prefix": ["197"],
+    "url": "https://www.airtanzania.co.tz/",
+    "partial_integration": false
+  },
+  {
+    "name": "Air Transat",
+    "iata": ["TS"],
+    "prefix": ["649"],
+    "url": "https://www.airtransat.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Airlink Cargo",
+    "iata": [],
+    "prefix": ["749"],
+    "url": "https://airlinkcargo.co.za/",
+    "partial_integration": true
+  },
+  {
+    "name": "Airmax Cargo",
+    "iata": ["M8"],
+    "prefix": ["658"],
+    "url": "https://www.airmaxcargo.com.pe/",
+    "partial_integration": true
+  },
+  {
+    "name": "AIRZETA",
+    "iata": ["KJ"],
+    "prefix": ["994"],
+    "url": "https://portal.airzetacargo.com/",
+    "partial_integration": true
+  },
+  {
+    "name": "Akasa Air",
+    "iata": ["QP"],
+    "prefix": ["516"],
+    "url": "https://www.akasaair.com/quick-links/cargo",
+    "partial_integration": false
+  },
+  {
+    "name": "Al Haya Aviation",
+    "iata": ["HD"],
+    "prefix": ["418"],
+    "url": "https://alhayaaviation.iq/",
+    "partial_integration": false
+  },
+  {
+    "name": "Alaska Air Cargo",
+    "iata": ["AS"],
+    "prefix": ["027"],
+    "url": "https://www.alaskacargo.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "AlliedAir",
+    "iata": ["4W"],
+    "prefix": ["574"],
+    "url": "https://alliedairng.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Aloha Air Cargo",
+    "iata": ["KH"],
+    "prefix": ["687"],
+    "url": "https://www.alohaaircargo.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "American Airlines",
+    "iata": ["AA"],
+    "prefix": ["001"],
+    "url": "https://www.aacargo.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Amerijet International",
+    "iata": ["M6"],
+    "prefix": ["810"],
+    "url": "https://amerijet.com/",
+    "partial_integration": true
+  },
+  {
+    "name": "ANA Cargo",
+    "iata": ["NH"],
+    "prefix": ["205"],
+    "url": "https://www.anacargo.jp/en/int/",
+    "partial_integration": true
+  },
+  {
+    "name": "Asia Airfreight Terminal",
+    "iata": [],
+    "prefix": [],
+    "url": "https://www.aat.com.hk/en",
+    "partial_integration": false
+  },
+  {
+    "name": "Asiana Cargo",
+    "iata": ["OZ"],
+    "prefix": ["988"],
+    "url": "https://www.asianacargo.com/home.do?lang=en",
+    "partial_integration": true
+  },
+  {
+    "name": "ASL Airlines Belgium",
+    "iata": ["3V"],
+    "prefix": ["756"],
+    "url": "https://aslairlines.be/",
+    "partial_integration": true
+  },
+  {
+    "name": "Astral Aviation",
+    "iata": ["8V"],
+    "prefix": ["485"],
+    "url": "https://www.astral-aviation.com/",
+    "partial_integration": true
+  },
+  {
+    "name": "Atlantic Airways",
+    "iata": ["RC"],
+    "prefix": ["767"],
+    "url": "https://www.atlanticairways.com/en/travel-info/cargo",
+    "partial_integration": true
+  },
+  {
+    "name": "Atlantis ACI",
+    "iata": ["EA"],
+    "prefix": ["827"],
+    "url": "https://atlantisairlink.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Atlantis Cargo",
+    "iata": ["NT"],
+    "prefix": ["474"],
+    "url": "https://www.atlantiscargo.es/index.php/en/",
+    "partial_integration": false
+  },
+  {
+    "name": "Atlas Air",
+    "iata": ["5Y"],
+    "prefix": ["369"],
+    "url": "https://www.atlasair.com/cargo-services/overview/",
+    "partial_integration": false
+  },
+  {
+    "name": "Aurora Airlines",
+    "iata": ["HZ"],
+    "prefix": ["598"],
+    "url": "https://www.flyaurora.ru/",
+    "partial_integration": false
+  },
+  {
+    "name": "Avianca Cargo Mexico",
+    "iata": ["6R"],
+    "prefix": ["873"],
+    "url": "https://www.aviancacargomexico.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Avianca Cargo",
+    "iata": ["AV"],
+    "prefix": ["202", "729", "133", "134"],
+    "url": "https://www.aviancacargo.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Awesome Cargo",
+    "iata": ["A7"],
+    "prefix": ["480"],
+    "url": "https://awesome-cargo.com/",
+    "partial_integration": true
+  },
+  {
+    "name": "AZAL Cargo",
+    "iata": ["J2"],
+    "prefix": ["771"],
+    "url": "https://www.azal.az/en/information/cargo/",
+    "partial_integration": false
+  },
+  {
+    "name": "Azul Cargo",
+    "iata": ["AD"],
+    "prefix": ["577"],
+    "url": "https://www.azulcargoexpress.com.br/",
+    "partial_integration": false
+  },
+  {
+    "name": "Bangkok Airways",
+    "iata": ["PG"],
+    "prefix": ["829"],
+    "url": "https://www.bangkokair.com/cargo-service/international",
+    "partial_integration": false
+  },
+  {
+    "name": "Batik Air Indonesia",
+    "iata": ["ID"],
+    "prefix": ["938"],
+    "url": "https://www.batikair.com/",
+    "partial_integration": true
+  },
+  {
+    "name": "Batik Air Malaysia",
+    "iata": ["OD"],
+    "prefix": ["816"],
+    "url": "https://www.batikair.com.my/",
+    "partial_integration": true
+  },
+  {
+    "name": "BidAir Cargo",
+    "iata": [],
+    "prefix": ["161"],
+    "url": "https://bidaircargo.co.za/",
+    "partial_integration": false
+  },
+  {
+    "name": "Biman Bangladesh",
+    "iata": ["BG"],
+    "prefix": ["997"],
+    "url": "https://www.biman-airlines.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Bringer Air Cargo",
+    "iata": ["E6"],
+    "prefix": ["417"],
+    "url": "https://www.bringeraircargo.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Cabo Verde Airlines",
+    "iata": ["VR"],
+    "prefix": ["696"],
+    "url": "https://www.caboverdeairlines.com/en/",
+    "partial_integration": false
+  },
+  {
+    "name": "Calm Air",
+    "iata": ["MO"],
+    "prefix": ["622"],
+    "url": "https://www.calmair.com/cargo/rates",
+    "partial_integration": true
+  },
+  {
+    "name": "Canadian North",
+    "iata": [],
+    "prefix": ["518"],
+    "url": "https://cargo.canadiannorth.com/",
+    "partial_integration": true
+  },
+  {
+    "name": "Capital Airlines",
+    "iata": ["JD"],
+    "prefix": ["898"],
+    "url": "https://intl.jdair.net/",
+    "partial_integration": false
+  },
+  {
+    "name": "Cargojet",
+    "iata": ["W8"],
+    "prefix": ["489"],
+    "url": "https://cargojet.com/",
+    "partial_integration": true
+  },
+  {
+    "name": "Cargolux Italia",
+    "iata": ["C8"],
+    "prefix": ["356"],
+    "url": "https://www.cargolux-italia.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Cargolux",
+    "iata": ["CV"],
+    "prefix": ["172"],
+    "url": "https://www.cargolux.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Caribbean Airlines",
+    "iata": ["BW"],
+    "prefix": ["106"],
+    "url": "https://cargo.caribbean-airlines.com/",
+    "partial_integration": true
+  },
+  {
+    "name": "Cathay Cargo",
+    "iata": ["CX"],
+    "prefix": ["160"],
+    "url": "https://www.cathaycargo.com/",
+    "partial_integration": true
+  },
+  {
+    "name": "Cayman Airways",
+    "iata": ["KX"],
+    "prefix": ["378"],
+    "url": "https://www.caymanairways.com/cargo",
+    "partial_integration": false
+  },
+  {
+    "name": "Cebu Pacific Air",
+    "iata": ["5J"],
+    "prefix": ["203"],
+    "url": "https://www.cebupacificair.com/en-PH/",
+    "partial_integration": false
+  },
+  {
+    "name": "Central Airlines",
+    "iata": ["I9"],
+    "prefix": ["959"],
+    "url": "http://www.zzairlines.com/en/",
+    "partial_integration": false
+  },
+  {
+    "name": "Challenge Airlines BE",
+    "iata": ["X7"],
+    "prefix": ["744"],
+    "url": "https://www.challenge-group.com/expert/challenge-airlines-be/",
+    "partial_integration": false
+  },
+  {
+    "name": "Challenge Airlines IL",
+    "iata": ["5C"],
+    "prefix": ["700"],
+    "url": "https://www.challenge-group.com/expert/challenge-airlines-il/",
+    "partial_integration": false
+  },
+  {
+    "name": "Challenge Airlines MT",
+    "iata": ["X6"],
+    "prefix": ["752"],
+    "url": "https://www.challenge-group.com/expert/challenge-airlines-mt/",
+    "partial_integration": false
+  },
+  {
+    "name": "Challenge Handling",
+    "iata": [],
+    "prefix": [],
+    "url": "https://www.challenge-handling.be/",
+    "partial_integration": false
+  },
+  {
+    "name": "China Airlines",
+    "iata": ["CI"],
+    "prefix": ["297"],
+    "url": "https://cargo.china-airlines.com/",
+    "partial_integration": true
+  },
+  {
+    "name": "China Cargo Airlines",
+    "iata": ["CK"],
+    "prefix": ["112"],
+    "url": "https://www.ckair.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "China Southern Airlines",
+    "iata": ["CZ"],
+    "prefix": ["784"],
+    "url": "https://tang.csair.com/Index.aspx?lan=en-us",
+    "partial_integration": false
+  },
+  {
+    "name": "Condor",
+    "iata": ["DE"],
+    "prefix": ["881"],
+    "url": "https://www.condor.com/eu/flight-preparation/baggage-and-animals/cargo-general-schedule.jsp",
+    "partial_integration": false
+  },
+  {
+    "name": "COPA",
+    "iata": ["CM"],
+    "prefix": ["230"],
+    "url": "https://www.copacargo.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Corendon Airlines",
+    "iata": ["XC"],
+    "prefix": ["395"],
+    "url": "https://www.corendonairlines.com/",
+    "partial_integration": true
+  },
+  {
+    "name": "Corendon Dutch Airlines",
+    "iata": ["CD"],
+    "prefix": ["503"],
+    "url": "https://www.corendon.nl/",
+    "partial_integration": false
+  },
+  {
+    "name": "Corsair",
+    "iata": ["SS"],
+    "prefix": ["923"],
+    "url": "https://www.corsair.fr/",
+    "partial_integration": false
+  },
+  {
+    "name": "Coyne Airways",
+    "iata": [],
+    "prefix": ["575"],
+    "url": "https://coyneair.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Croatia Airlines",
+    "iata": ["OU"],
+    "prefix": ["831"],
+    "url": "https://www.croatiaairlines.com/services/cargo",
+    "partial_integration": false
+  },
+  {
+    "name": "Delta Cargo",
+    "iata": ["DL"],
+    "prefix": ["006"],
+    "url": "https://www.deltacargo.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "DHL Aviation",
+    "iata": ["ES", "QY", "L3", "7T", "D0"],
+    "prefix": ["615", "144", "992", "155", "947", "936"],
+    "url": "https://aviationcargo.dhl.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Daallo Express",
+    "iata": ["D3"],
+    "prefix": ["991"],
+    "url": "https://daalloexpressdelivery.com/",
+    "partial_integration": true
+  },
+  {
+    "name": "Eastar Jet",
+    "iata": ["ZE"],
+    "prefix": ["839"],
+    "url": "https://www.eastarjet.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Egypt Air",
+    "iata": ["MS"],
+    "prefix": ["077"],
+    "url": "https://www.egyptair.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "El Al Israel Airlines",
+    "iata": ["LY"],
+    "prefix": ["114"],
+    "url": "https://www.elal.co.il/ELAL/English/ELALCargo/Home.html",
+    "partial_integration": false
+  },
+  {
+    "name": "Emirates",
+    "iata": ["EK"],
+    "prefix": ["176"],
+    "url": "http://www.sky-cargo.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Estafeta",
+    "iata": ["E7"],
+    "prefix": ["355"],
+    "url": "https://www.estafeta.com/en/servicios/internacional/freight-forwarding",
+    "partial_integration": false
+  },
+  {
+    "name": "Ethiopian Airlines",
+    "iata": ["ET"],
+    "prefix": ["071"],
+    "url": "https://cargo.ethiopianairlines.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Etihad Cargo",
+    "iata": ["EY"],
+    "prefix": ["607"],
+    "url": "https://www.etihadcargo.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "EVA Air",
+    "iata": ["BR"],
+    "prefix": ["695"],
+    "url": "https://www.brcargo.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Everts Air",
+    "iata": ["5V"],
+    "prefix": ["840"],
+    "url": "https://evertsair.com/cargo",
+    "partial_integration": false
+  },
+  {
+    "name": "Fedex Freight Cargo",
+    "iata": ["FX"],
+    "prefix": ["023"],
+    "url": "https://www.fedex.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Fiji Airways",
+    "iata": ["FJ"],
+    "prefix": ["260"],
+    "url": "https://www.fijiairways.com/en-us/book/cargo-and-freight/",
+    "partial_integration": true
+  },
+  {
+    "name": "Finnair Cargo",
+    "iata": ["AY"],
+    "prefix": ["105"],
+    "url": "https://cargo.finnair.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Fits Cargo",
+    "iata": ["8D"],
+    "prefix": ["319"],
+    "url": "https://fitscargo.com/",
+    "partial_integration": true
+  },
+  {
+    "name": "Fly Jinnah",
+    "iata": ["9P"],
+    "prefix": ["772"],
+    "url": "https://www.flyjinnah.com/",
+    "partial_integration": true
+  },
+  {
+    "name": "flydubai Cargo",
+    "iata": ["FZ"],
+    "prefix": ["141"],
+    "url": "https://www.flydubai.com/en/flydubai-cargo/",
+    "partial_integration": false
+  },
+  {
+    "name": "flynas",
+    "iata": ["XY"],
+    "prefix": ["593"],
+    "url": "https://www.flynas.com/en",
+    "partial_integration": true
+  },
+  {
+    "name": "French Bee",
+    "iata": ["BF"],
+    "prefix": ["396"],
+    "url": "https://www.frenchbee.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Fuzhou Airlines",
+    "iata": ["FU"],
+    "prefix": ["666"],
+    "url": "http://www.fuzhou-air.cn/",
+    "partial_integration": false
+  },
+  {
+    "name": "Garuda Indonesia",
+    "iata": ["GA"],
+    "prefix": ["126"],
+    "url": "https://cargo.garuda-indonesia.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "GFS",
+    "iata": ["GC"],
+    "prefix": ["282"],
+    "url": "https://global-feeder.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Gollog",
+    "iata": ["G3"],
+    "prefix": ["127"],
+    "url": "https://www.gollog.com.br/",
+    "partial_integration": false
+  },
+  {
+    "name": "Greater Bay Airlines",
+    "iata": ["HB"],
+    "prefix": ["283"],
+    "url": "https://www.greaterbay-airlines.com/",
+    "partial_integration": true
+  },
+  {
+    "name": "Gulf Air Falcon Cargo",
+    "iata": ["GF"],
+    "prefix": ["072"],
+    "url": "https://cargo.gulfair.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "GX Airlines",
+    "iata": ["GX"],
+    "prefix": ["872"],
+    "url": "https://www.gxairlines.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Hainan Airlines Cargo",
+    "iata": ["HU"],
+    "prefix": ["880"],
+    "url": "https://www.hnacargo.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Hawaiian Airlines",
+    "iata": ["HA"],
+    "prefix": ["173"],
+    "url": "https://www.hawaiianaircargo.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "HK Express",
+    "iata": ["UO"],
+    "prefix": ["128"],
+    "url": "https://www.hkexpress.com/",
+    "partial_integration": true
+  },
+  {
+    "name": "Hong Kong Air Cargo",
+    "iata": ["RH", "HX"],
+    "prefix": ["851", "828"],
+    "url": "https://www.hkaircargo.com/",
+    "partial_integration": true
+  },
+  {
+    "name": "Hungary Airlines",
+    "iata": ["2G"],
+    "prefix": ["038"],
+    "url": "https://huairlines.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "IAG Cargo",
+    "iata": ["IB", "BA", "EI"],
+    "prefix": ["125", "075"],
+    "url": "https://www.iagcargo.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "IBC Airways",
+    "iata": ["II"],
+    "prefix": ["175"],
+    "url": "https://ibcairways.com/index.php/air-cargo/",
+    "partial_integration": false
+  },
+  {
+    "name": "Iberojet",
+    "iata": ["E9"],
+    "prefix": ["783"],
+    "url": "https://www.iberojet.com/en/",
+    "partial_integration": false
+  },
+  {
+    "name": "Icelandair",
+    "iata": ["FI"],
+    "prefix": ["108"],
+    "url": "https://www.icelandaircargo.com/",
+    "partial_integration": true
+  },
+  {
+    "name": "IndiGo CarGo",
+    "iata": ["6E"],
+    "prefix": ["312"],
+    "url": "https://www.goindigo.in/cargo/services.html",
+    "partial_integration": false
+  },
+  {
+    "name": "ITA",
+    "iata": ["AZ"],
+    "prefix": ["055"],
+    "url": "https://www.ita-airways-cargo.com/s/?language=en_US",
+    "partial_integration": false
+  },
+  {
+    "name": "Jambojet",
+    "iata": ["JM"],
+    "prefix": ["702"],
+    "url": "https://www.jambojet.com/jmcargo/",
+    "partial_integration": false
+  },
+  {
+    "name": "Japan Airlines",
+    "iata": ["JL"],
+    "prefix": ["131"],
+    "url": "https://www.jal.co.jp/en/jalcargo/",
+    "partial_integration": false
+  },
+  {
+    "name": "Jazeera Air Cargo",
+    "iata": ["J9"],
+    "prefix": ["486"],
+    "url": "https://www.jazeeraairways.com/en-kw/air-cargo",
+    "partial_integration": true
+  },
+  {
+    "name": "Jeju Air Cargo",
+    "iata": ["7C"],
+    "prefix": ["806"],
+    "url": "https://cargo.jejuair.net/",
+    "partial_integration": false
+  },
+  {
+    "name": "Jet Club",
+    "iata": ["0J"],
+    "prefix": ["254"],
+    "url": null,
+    "partial_integration": false
+  },
+  {
+    "name": "JetBlue",
+    "iata": ["B6"],
+    "prefix": ["279"],
+    "url": "https://www.jetblue.com/help/cargo",
+    "partial_integration": true
+  },
+  {
+    "name": "Jin Air",
+    "iata": ["LJ"],
+    "prefix": ["718"],
+    "url": "https://www.jinair.com/company/freight",
+    "partial_integration": true
+  },
+  {
+    "name": "Juneyao Airlines",
+    "iata": ["HO"],
+    "prefix": ["018"],
+    "url": "http://cargo.juneyaoair.com/Index_en.aspx",
+    "partial_integration": false
+  },
+  {
+    "name": "Kalitta Air",
+    "iata": [],
+    "prefix": ["272"],
+    "url": "https://www.kalittaair.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Kenya Airways Cargo",
+    "iata": ["KQ"],
+    "prefix": ["706"],
+    "url": "https://www.kqcargo.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "KM Malta Airlines",
+    "iata": ["KM"],
+    "prefix": ["643"],
+    "url": "https://kmmaltairlines.com/en",
+    "partial_integration": false
+  },
+  {
+    "name": "Korean Air Cargo",
+    "iata": ["KE"],
+    "prefix": ["180"],
+    "url": "https://cargo.koreanair.com/",
+    "partial_integration": true
+  },
+  {
+    "name": "Kuwait Airways",
+    "iata": ["KU"],
+    "prefix": ["229"],
+    "url": "https://www.kuwaitairways.com/en/cargo/Pages/default.aspx",
+    "partial_integration": true
+  },
+  {
+    "name": "LAM Cargo",
+    "iata": ["TM"],
+    "prefix": ["068"],
+    "url": "https://www.lam.co.mz/en/LAM-Cargo",
+    "partial_integration": false
+  },
+  {
+    "name": "Laparkan Airways",
+    "iata": ["LE"],
+    "prefix": [],
+    "url": "https://laparkan.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "LATAM Cargo",
+    "iata": ["LA", "L7", "M3", "UC"],
+    "prefix": ["145", "045", "549", "985", "527"],
+    "url": "https://www.latamcargo.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Lion Air",
+    "iata": ["JT"],
+    "prefix": ["990"],
+    "url": "https://www.lionair.co.id/",
+    "partial_integration": true
+  },
+  {
+    "name": "LOT Cargo",
+    "iata": ["LO"],
+    "prefix": ["080"],
+    "url": "https://www.lot.com/cargo",
+    "partial_integration": true
+  },
+  {
+    "name": "Lucky Air",
+    "iata": ["8L"],
+    "prefix": ["859"],
+    "url": "https://www.luckyair.net/",
+    "partial_integration": false
+  },
+  {
+    "name": "Lufthansa Cargo",
+    "iata": ["LH"],
+    "prefix": ["020"],
+    "url": "https://lufthansa-cargo.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Lynden Air Cargo",
+    "iata": ["L2"],
+    "prefix": ["344"],
+    "url": "https://www.lynden.com/lac/",
+    "partial_integration": false
+  },
+  {
+    "name": "Maersk",
+    "iata": ["DJ"],
+    "prefix": ["763"],
+    "url": "https://www.maersk.com/transportation-services/air-freight",
+    "partial_integration": false
+  },
+  {
+    "name": "MasAir",
+    "iata": ["M7"],
+    "prefix": ["865"],
+    "url": "https://www.masair.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "MASkargo",
+    "iata": ["MH"],
+    "prefix": ["232"],
+    "url": "https://www.maskargo.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Mercury Americas",
+    "iata": [],
+    "prefix": ["805"],
+    "url": "https://www.mercuryamericas.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Middle East Airlines",
+    "iata": ["ME"],
+    "prefix": ["076"],
+    "url": "https://www.mea.com.lb/english/Plan-and-Book/Cargo",
+    "partial_integration": false
+  },
+  {
+    "name": "MNG Airlines",
+    "iata": ["MB"],
+    "prefix": ["716"],
+    "url": "https://www.mngairlines.com/",
+    "partial_integration": true
+  },
+  {
+    "name": "Moscow Cargo",
+    "iata": [],
+    "prefix": [],
+    "url": "https://www.moscow-cargo.com/",
+    "partial_integration": true
+  },
+  {
+    "name": "MSC Air Cargo",
+    "iata": ["CP"],
+    "prefix": ["233"],
+    "url": "https://www.mscaircargo.com/",
+    "partial_integration": true
+  },
+  {
+    "name": "My Freighter",
+    "iata": ["C6"],
+    "prefix": ["488"],
+    "url": "https://myf.global/",
+    "partial_integration": false
+  },
+  {
+    "name": "Nauru Airlines",
+    "iata": ["ON"],
+    "prefix": ["123"],
+    "url": "https://www.nauruair.com/freight",
+    "partial_integration": false
+  },
+  {
+    "name": "Neos",
+    "iata": ["NO"],
+    "prefix": ["703"],
+    "url": "https://www.neosair.it/en/before_the_flight/baggages/cargo_transportation",
+    "partial_integration": true
+  },
+  {
+    "name": "Network Aviation Group",
+    "iata": [],
+    "prefix": [],
+    "url": "https://network-airline.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Nile Air",
+    "iata": ["NP"],
+    "prefix": ["325"],
+    "url": "https://www.nileair.com/",
+    "partial_integration": true
+  },
+  {
+    "name": "Nippon Cargo Airlines",
+    "iata": ["KZ"],
+    "prefix": ["933"],
+    "url": "https://www.nca.aero/e/",
+    "partial_integration": false
+  },
+  {
+    "name": "Nordwind Airlines",
+    "iata": ["N4"],
+    "prefix": ["216"],
+    "url": "https://nordwindairlines.ru/en",
+    "partial_integration": true
+  },
+  {
+    "name": "Norse Cargo",
+    "iata": ["N0", "Z0"],
+    "prefix": ["179", "536", "506"],
+    "url": "https://www.flynorsecargo.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Northern Air Cargo",
+    "iata": ["NC"],
+    "prefix": ["345"],
+    "url": "https://www.nac.aero/",
+    "partial_integration": true
+  },
+  {
+    "name": "Norwegian",
+    "iata": ["DY", "D8"],
+    "prefix": ["328"],
+    "url": "https://cargo.norwegian.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Oman Air Cargo",
+    "iata": ["WY"],
+    "prefix": ["910"],
+    "url": "https://cargo.omanair.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Pacific Coastal Airlines",
+    "iata": ["8P"],
+    "prefix": ["905"],
+    "url": "https://cargo.pacificcoastal.com/WebContent/EN/Home",
+    "partial_integration": true
+  },
+  {
+    "name": "Pakistan International",
+    "iata": ["PK"],
+    "prefix": ["214"],
+    "url": "https://www.piac.com.pk/corporate/business-units/cargo/about-cargo",
+    "partial_integration": false
+  },
+  {
+    "name": "PAL Airlines",
+    "iata": [],
+    "prefix": ["967"],
+    "url": "https://palairlines.ca/cargo/",
+    "partial_integration": false
+  },
+  {
+    "name": "Pegasus Cargo",
+    "iata": ["PC"],
+    "prefix": ["624"],
+    "url": "https://www.flypgs.com/",
+    "partial_integration": true
+  },
+  {
+    "name": "Pelita Air",
+    "iata": ["IP"],
+    "prefix": ["778"],
+    "url": "https://www.pelita-air.com/",
+    "partial_integration": true
+  },
+  {
+    "name": "Perimeter",
+    "iata": [],
+    "prefix": ["632"],
+    "url": "https://perimeter.ca/shipping/",
+    "partial_integration": true
+  },
+  {
+    "name": "Philippine Airlines",
+    "iata": ["PR", "2P"],
+    "prefix": ["079"],
+    "url": "https://cargo.pal.com.ph/",
+    "partial_integration": false
+  },
+  {
+    "name": "Plus Ultra",
+    "iata": ["PU"],
+    "prefix": ["663"],
+    "url": "https://www.plusultra.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "PNG Air",
+    "iata": ["CG"],
+    "prefix": ["626"],
+    "url": "https://cargo.pngair.com.pg/",
+    "partial_integration": true
+  },
+  {
+    "name": "Polar Air Cargo",
+    "iata": ["PO"],
+    "prefix": ["403"],
+    "url": "https://www.polaraircargo.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Qantas",
+    "iata": ["QF"],
+    "prefix": ["081"],
+    "url": "https://freight.qantas.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Qatar Airways",
+    "iata": ["QR"],
+    "prefix": ["157"],
+    "url": "https://www.qrcargo.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Rimbun Air",
+    "iata": ["RI"],
+    "prefix": ["273"],
+    "url": "https://www.rimbunair.com/en",
+    "partial_integration": false
+  },
+  {
+    "name": "Royal Air Maroc",
+    "iata": ["AT"],
+    "prefix": ["147"],
+    "url": "https://cargo.royalairmaroc.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Royal Brunei",
+    "iata": ["BI"],
+    "prefix": ["672"],
+    "url": "https://www.flyroyalbrunei.com/brunei/en/information/cargo/",
+    "partial_integration": false
+  },
+  {
+    "name": "Royal Jordanian",
+    "iata": ["RJ"],
+    "prefix": ["512"],
+    "url": "https://rj-cargo.com/",
+    "partial_integration": true
+  },
+  {
+    "name": "RwandAir",
+    "iata": ["WB"],
+    "prefix": ["459"],
+    "url": "https://www.rwandair.com/business-solutions/cargo/",
+    "partial_integration": false
+  },
+  {
+    "name": "Ryan Air",
+    "iata": ["7S"],
+    "prefix": [],
+    "url": "https://ryanalaska.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "S7 Cargo",
+    "iata": ["S7"],
+    "prefix": ["421"],
+    "url": "https://cargo.s7.ru/",
+    "partial_integration": true
+  },
+  {
+    "name": "SAS Cargo",
+    "iata": ["SK"],
+    "prefix": ["117"],
+    "url": "https://www.sascargo.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "SATA",
+    "iata": ["S4", "SP"],
+    "prefix": ["331", "737"],
+    "url": "https://www.azoresairlines.pt/en/services/cargo",
+    "partial_integration": false
+  },
+  {
+    "name": "Saudia Cargo",
+    "iata": ["SV"],
+    "prefix": ["065"],
+    "url": "https://saudiacargo.com/",
+    "partial_integration": true
+  },
+  {
+    "name": "SF Airlines",
+    "iata": ["O3"],
+    "prefix": ["921"],
+    "url": "https://www.sf-airlines.com/en/index.html",
+    "partial_integration": true
+  },
+  {
+    "name": "Shenzhen Airlines",
+    "iata": [],
+    "prefix": ["479"],
+    "url": "http://cargo.shenzhenair.com/",
+    "partial_integration": true
+  },
+  {
+    "name": "Sichuan Airlines",
+    "iata": ["3U"],
+    "prefix": ["876"],
+    "url": "https://global.sichuanair.com/",
+    "partial_integration": true
+  },
+  {
+    "name": "Silk Way Airlines",
+    "iata": ["ZP"],
+    "prefix": ["463"],
+    "url": "https://www.silkwayairlines.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Silk Way West Airlines",
+    "iata": ["7L"],
+    "prefix": ["501"],
+    "url": "https://www.silkwaywest.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Singapore Airlines",
+    "iata": ["SQ"],
+    "prefix": ["618"],
+    "url": "https://www.siacargo.com/",
+    "partial_integration": true
+  },
+  {
+    "name": "SKY Cargo",
+    "iata": [],
+    "prefix": ["605"],
+    "url": "https://www.skyairline.com/english/sites/freight",
+    "partial_integration": false
+  },
+  {
+    "name": "Smartwings",
+    "iata": ["QS"],
+    "prefix": ["797"],
+    "url": "https://www.smartwings.com/en/cargo-en/",
+    "partial_integration": true
+  },
+  {
+    "name": "South African Airways",
+    "iata": ["SA"],
+    "prefix": ["083"],
+    "url": "https://www.flysaa.com/about-us/leading-carrier/saa-cargo/about-us",
+    "partial_integration": true
+  },
+  {
+    "name": "South American Airways",
+    "iata": [],
+    "prefix": ["817"],
+    "url": "https://southamericanairways.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Southwest Airlines",
+    "iata": ["WN"],
+    "prefix": ["526"],
+    "url": "https://www.swacargo.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "SpiceJet Cargo",
+    "iata": ["SG"],
+    "prefix": ["775"],
+    "url": "https://www.spicejet.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "SriLankan Cargo",
+    "iata": ["UL"],
+    "prefix": ["603"],
+    "url": "https://www.srilankancargo.com/",
+    "partial_integration": true
+  },
+  {
+    "name": "Stabo Air",
+    "iata": ["4E"],
+    "prefix": ["242"],
+    "url": "https://staboair.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "STARLUX",
+    "iata": ["JX"],
+    "prefix": ["189"],
+    "url": "https://www.starluxcargo.com/",
+    "partial_integration": true
+  },
+  {
+    "name": "Sunclass Airlines",
+    "iata": ["DK"],
+    "prefix": ["630"],
+    "url": "https://sunclassairlines.dk/",
+    "partial_integration": false
+  },
+  {
+    "name": "Suparna Airlines",
+    "iata": ["Y8"],
+    "prefix": ["871"],
+    "url": "https://www.yzr.com.cn/",
+    "partial_integration": false
+  },
+  {
+    "name": "Super Air Jet",
+    "iata": ["IU"],
+    "prefix": ["920"],
+    "url": "https://www.superairjet.com/",
+    "partial_integration": true
+  },
+  {
+    "name": "Swiss WorldCargo",
+    "iata": ["LX"],
+    "prefix": ["724"],
+    "url": "https://www.swissworldcargo.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Swissport",
+    "iata": [],
+    "prefix": [],
+    "url": "https://www.swissport.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "TAB Cargo",
+    "iata": ["TB"],
+    "prefix": ["901"],
+    "url": "https://tabairlines.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "TAP Air Cargo",
+    "iata": ["TP"],
+    "prefix": ["047"],
+    "url": "https://www.tapcargo.com/en/",
+    "partial_integration": true
+  },
+  {
+    "name": "Tarom",
+    "iata": ["RO"],
+    "prefix": ["281"],
+    "url": "https://www.tarom.ro/en/rezerva/cargo-transport/",
+    "partial_integration": false
+  },
+  {
+    "name": "Thai Cargo",
+    "iata": ["TG"],
+    "prefix": ["217"],
+    "url": "https://www.thaicargo.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Thai Lion Air",
+    "iata": ["SL"],
+    "prefix": ["310"],
+    "url": "http://www.lionairthai.com/",
+    "partial_integration": true
+  },
+  {
+    "name": "Tianjin Air Cargo",
+    "iata": ["HT"],
+    "prefix": ["877"],
+    "url": null,
+    "partial_integration": false
+  },
+  {
+    "name": "Tianjin Airlines",
+    "iata": ["GS"],
+    "prefix": ["826"],
+    "url": "http://www.tianjin-air.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Trust Forwarding",
+    "iata": [],
+    "prefix": ["154"],
+    "url": "https://www.trustforwarding.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "TUI",
+    "iata": ["TB"],
+    "prefix": ["612"],
+    "url": "https://www.tuifly.be/en",
+    "partial_integration": false
+  },
+  {
+    "name": "Tunisair Cargo",
+    "iata": ["TU"],
+    "prefix": ["199"],
+    "url": "https://www.tunisair.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Turkish Airlines",
+    "iata": ["TK"],
+    "prefix": ["235"],
+    "url": "https://www.turkishcargo.com/en",
+    "partial_integration": false
+  },
+  {
+    "name": "Turkmenistan Airlines",
+    "iata": ["T5"],
+    "prefix": ["542"],
+    "url": "https://turkmenistanairlines.tm/en",
+    "partial_integration": true
+  },
+  {
+    "name": "Uganda Airlines",
+    "iata": ["UR"],
+    "prefix": ["109"],
+    "url": "https://ur-cargo.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "United Cargo",
+    "iata": ["UA"],
+    "prefix": ["016"],
+    "url": "https://www.unitedcargo.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "UPS Air Cargo",
+    "iata": ["5X"],
+    "prefix": ["406"],
+    "url": "https://www.aircargo.ups.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Ural Airlines",
+    "iata": ["U6"],
+    "prefix": ["262"],
+    "url": "https://u6-cargo.com/",
+    "partial_integration": true
+  },
+  {
+    "name": "Uzbekistan Airways",
+    "iata": ["HY"],
+    "prefix": ["250"],
+    "url": "https://corp.uzairways.com/en/cargo-export",
+    "partial_integration": false
+  },
+  {
+    "name": "VietJet Cargo",
+    "iata": ["VJ"],
+    "prefix": ["978"],
+    "url": "https://vietjetaircargo.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Vietnam Airlines",
+    "iata": ["VN"],
+    "prefix": ["738"],
+    "url": "https://www.vietnamairlines.com/en/cargo",
+    "partial_integration": true
+  },
+  {
+    "name": "Vietravel Airlines",
+    "iata": [],
+    "prefix": ["759"],
+    "url": "https://www.vietravelairlines.com/us/en",
+    "partial_integration": false
+  },
+  {
+    "name": "Virgin Atlantic",
+    "iata": ["VS"],
+    "prefix": ["932"],
+    "url": "https://www.virginatlanticcargo.com/",
+    "partial_integration": false
+  },
+  {
+    "name": "Virgin Australia Cargo",
+    "iata": ["VA"],
+    "prefix": ["795"],
+    "url": "https://www.virginaustralia.com/nz/en/bookings/cargo/cargo-services/",
+    "partial_integration": false
+  },
+  {
+    "name": "Volaris",
+    "iata": ["Y4", "Q6", "N3"],
+    "prefix": ["036", "621", "370"],
+    "url": "https://cms.volaris.com/en/travel-info/cultura-volaris/volaris-cargo/",
+    "partial_integration": false
+  },
+  {
+    "name": "West Air",
+    "iata": ["PN"],
+    "prefix": ["847"],
+    "url": "https://www.westair.cn/",
+    "partial_integration": false
+  },
+  {
+    "name": "WestJet Cargo",
+    "iata": ["WS"],
+    "prefix": ["838"],
+    "url": "https://www.westjetcargo.com/en-ca",
+    "partial_integration": false
+  },
+  {
+    "name": "Widerøe",
+    "iata": ["WF"],
+    "prefix": ["701"],
+    "url": "https://www.wideroe.no/bedrift/cargo",
+    "partial_integration": false
+  },
+  {
+    "name": "Wings Air",
+    "iata": ["IW"],
+    "prefix": ["513"],
+    "url": null,
+    "partial_integration": true
+  },
+  {
+    "name": "World2Fly",
+    "iata": [],
+    "prefix": ["825"],
+    "url": "https://www.w2fly.es/en-en",
+    "partial_integration": true
+  },
+  {
+    "name": "Worldwide Flight Services",
+    "iata": [],
+    "prefix": [],
+    "url": "https://www.wfs.aero/",
+    "partial_integration": false
+  },
+  {
+    "name": "YTO International",
+    "iata": ["YG"],
+    "prefix": ["860"],
+    "url": "https://www.ytoglobal.com/product/freight-flight",
+    "partial_integration": false
+  }
+]
