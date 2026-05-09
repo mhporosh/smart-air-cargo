@@ -82,7 +82,12 @@ class QuoteViewSet(viewsets.ModelViewSet):
                 to=recipients,
                 reply_to=[quote.email],
             )
-            email.send(fail_silently=False)
+            try:
+                email.send(fail_silently=False)
+            except Exception as e:
+                # Log email error but don't crash quote creation
+                import sys
+                print(f"Failed to send quote notification email: {e}", file=sys.stderr)
 
         transaction.on_commit(send_admin_notification)
 
