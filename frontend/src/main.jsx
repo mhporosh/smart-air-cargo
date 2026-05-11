@@ -6,7 +6,7 @@ import App from "./App.jsx";
 import Admin from "./pages/Admin.jsx";
 import Home from "./pages/Home.jsx";
 import "./styles.css";
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 createRoot(document.getElementById("root")).render(
   <BrowserRouter>
