@@ -5,14 +5,14 @@ from apps.site_settings.models import SiteSetting
 
 
 DEFAULT_SETTINGS = {
-    "phone": "+880 1729-447129",
+    "phone": "+88 02 48957260",
     "email": "info@smartaircargo.net",
     "quote_notification_emails": "info@smartaircargo.net",
     "address": "House-04, Road-11, Sector-01, Uttara, Dhaka-1230, Bangladesh",
     "hero_eyebrow": "Bangladesh's Best Freight Forwarder",
     "hero_title": "Moving the World",
     "hero_text": (
-        "Smart Air Cargo Services connects Bangladesh to 80+ global airports. "
+        "Smart Air Cargo Services connects Bangladesh to 140+ global airports. "
         "Precision logistics from Dhaka (DAC) and Chattogram (CGP)."
     ),
     "about_text": (
@@ -43,7 +43,7 @@ DEFAULT_SERVICES = [
         "warehouse",
     ),
     (
-        "Door-to-Door Delivery",
+        "Door-to-Door",
         "Integrated pickup, freight, clearance, and final-mile coordination.",
         "truck",
     ),

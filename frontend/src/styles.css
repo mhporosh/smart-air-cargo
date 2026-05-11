@@ -4,7 +4,7 @@
 
 @layer base {
   :root {
-    font-family: 'DM Sans', sans-serif;
+    font-family: "DM Sans", sans-serif;
   }
 }
 
@@ -161,11 +161,8 @@ button {
    TOP BAR
 ============================================================ */
 .topbar {
-  background: var(--navy);
-  padding: 8px 0;
-  font-size: 12px;
-  color: rgba(255, 255, 255, 0.6);
-  letter-spacing: 0.5px;
+  /* hidden: top header removed above navbar */
+  display: none;
 }
 .topbar-inner {
   display: flex;
@@ -2069,7 +2066,11 @@ footer {
   left: -60px;
   width: 300px;
   height: 300px;
-  background: radial-gradient(circle, rgba(123, 28, 46, 0.22) 0%, transparent 70%);
+  background: radial-gradient(
+    circle,
+    rgba(123, 28, 46, 0.22) 0%,
+    transparent 70%
+  );
   pointer-events: none;
 }
 .tracker-wrap .header-label {
@@ -2130,7 +2131,9 @@ footer {
   font-weight: 600;
   cursor: pointer;
   white-space: nowrap;
-  transition: background 0.15s, transform 0.1s;
+  transition:
+    background 0.15s,
+    transform 0.1s;
   display: inline-flex;
   align-items: center;
   gap: 8px;
@@ -2152,7 +2155,9 @@ footer {
   font-weight: 500;
   cursor: pointer;
   white-space: nowrap;
-  transition: background 0.15s, border-color 0.15s;
+  transition:
+    background 0.15s,
+    border-color 0.15s;
 }
 .tracker-wrap .btn-secondary:hover {
   background: rgba(123, 28, 46, 0.12);
@@ -2235,11 +2240,22 @@ footer {
 }
 .tracker-wrap .plane-icon {
   position: absolute;
-  right: 28px;
-  top: 50%;
-  transform: translateY(-50%);
-  opacity: 0.06;
+  right: 24px;
+  top: 24px;
+  width: 170px;
+  height: 170px;
+  transform: none;
+  opacity: 0.1;
+  z-index: 3;
   pointer-events: none;
+}
+
+@media (max-width: 900px) {
+  .tracker-wrap .plane-icon {
+    width: 112px;
+    height: 112px;
+    opacity: 0.08;
+  }
 }
 
 /* ============================================================
@@ -2411,8 +2427,8 @@ footer {
   }
 }
 
-/* Mobile menu */
 #mobile-menu {
+  /* full-screen mobile menu uses visibility + transform for smooth transitions */
   position: fixed;
   top: 0;
   left: 0;
@@ -2423,11 +2439,27 @@ footer {
   padding: 80px 32px 40px;
   flex-direction: column;
   gap: 8px;
-  display: none;
+  display: flex;
   overflow-y: auto;
+  visibility: hidden;
+  opacity: 0;
+  /* start off-screen to the right */
+  transform: translateX(100%);
+  transition:
+    transform 300ms ease,
+    opacity 300ms ease,
+    visibility 0ms linear 300ms;
+  pointer-events: none;
 }
 #mobile-menu.open {
-  display: flex;
+  visibility: visible;
+  opacity: 1;
+  /* slide in from right to left */
+  transform: translateX(0);
+  transition:
+    transform 300ms ease,
+    opacity 300ms ease;
+  pointer-events: auto;
 }
 #mobile-menu a {
   font-family: var(--font-display);
@@ -2452,4 +2484,3 @@ footer {
   font-size: 28px;
   cursor: pointer;
 }
-

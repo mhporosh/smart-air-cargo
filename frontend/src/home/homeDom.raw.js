@@ -325,8 +325,8 @@ function renderList() {
     if (vis) count++;
     grid.appendChild(div);
   });
-  document.getElementById("al-count").textContent = count + " airports";
-  document.getElementById("result-count").textContent = count;
+  document.getElementById("al-count").textContent = "140+ airports";
+  document.getElementById("result-count").textContent = "140+";
 }
 
 // ============ FILTER LOGIC ============

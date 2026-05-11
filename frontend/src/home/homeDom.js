@@ -1,13 +1,13 @@
 import rawHomeDomScript from "./homeDom.raw.js?raw";
 
-const DEFAULT_PHONE = "+880 1729-447129";
+const DEFAULT_PHONE = "+88 02 48957260";
 const DEFAULT_EMAIL = "info@smartaircargo.net";
 const DEFAULT_ADDRESS =
   "House-04, Road-11, Sector-01, Uttara, Dhaka-1230, Bangladesh";
 const DEFAULT_HERO_EYEBROW = "Bangladesh's Best Freight Forwarder";
 const DEFAULT_HERO_TITLE = "MOVING THE WORLD";
 const DEFAULT_HERO_TEXT =
-  "Smart Air Cargo Services connects Bangladesh to 80+ global airports. Precision logistics from Dhaka (DAC) and Chattogram (CGP) tailored, transparent, trusted.";
+  "Smart Air Cargo Services connects Bangladesh to 140+ global airports. Precision logistics from Dhaka (DAC) and Chattogram (CGP) tailored, transparent, trusted.";
 const DEFAULT_ABOUT_TEXT =
   "Smart Air Cargo Services (SACS) is a dynamic international freight forwarding company headquartered in Dhaka, Bangladesh. Established to support private freight forwarders and logistics players, we specialize in delivering efficient, customized shipping solutions across air, sea, and land.";
 
@@ -166,6 +166,22 @@ function applySiteSettings(settings) {
   setElementText(".about-text .sec-desc", aboutText);
 }
 
+function applyMarketingCopyOverrides() {
+  replaceTextEverywhere(document.body, "80+", "140+");
+  replaceTextEverywhere(document.body, "200+", "140+");
+  replaceTextEverywhere(
+    document.body,
+    "Last-Mile · Door-to-Door",
+    "Door-to-Door",
+  );
+  replaceTextEverywhere(
+    document.body,
+    "Last-Mile / Door-to-Door",
+    "Door-to-Door",
+  );
+  replaceTextEverywhere(document.body, "Trucking / Last-Mile", "Door-to-Door");
+}
+
 function makeInitials(name) {
   if (!name) return "";
   return name
@@ -280,13 +296,20 @@ function renderTeamFromSettings(settings) {
 }
 
 async function fetchAndApplySiteSettings(api) {
-  if (!api || typeof api.get !== "function") return;
+  if (!api || typeof api.get !== "function") {
+    console.warn("API client not available for fetching site settings");
+    return;
+  }
 
   try {
     const response = await api.get("/settings/", {
       params: { _: Date.now() },
     });
     const data = response?.data || {};
+    if (Object.keys(data).length === 0) {
+      console.warn("Empty settings received from backend API");
+      return;
+    }
     applySiteSettings(data);
     try {
       renderTeamFromSettings(data);
@@ -294,7 +317,11 @@ async function fetchAndApplySiteSettings(api) {
       // don't let team rendering break the page
       console.error("Failed to render team from settings", e);
     }
-  } catch {
+  } catch (error) {
+    console.error(
+      "Failed to fetch site settings from API:",
+      error?.message || error,
+    );
     // Ignore settings fetch failures so the legacy page still loads.
   }
 }
@@ -366,6 +393,47 @@ export function initializeHomeDom({ api }) {
 
   const runLegacyScript = new Function(script);
   runLegacyScript();
+  applyMarketingCopyOverrides();
+  // Ensure mobile menu has a close button and open/close handlers with smooth animation
+  (function ensureMobileMenuControls() {
+    function defaultClose() {
+      const m = document.getElementById("mobile-menu");
+      if (!m) return;
+      m.classList.remove("open");
+    }
+
+    // If legacy defines closeMobileMenu, prefer it; otherwise assign our default
+    window.closeMobileMenu =
+      typeof closeMobileMenu === "function" ? closeMobileMenu : defaultClose;
+
+    // Add close button if missing
+    const menu = document.getElementById("mobile-menu");
+    if (menu && !menu.querySelector(".close-btn")) {
+      const btn = document.createElement("button");
+      btn.className = "close-btn";
+      btn.setAttribute("aria-label", "Close menu");
+      btn.innerHTML = "&times;";
+      btn.addEventListener("click", () => {
+        // call the available close function (legacy or default)
+        if (typeof window.closeMobileMenu === "function") {
+          window.closeMobileMenu();
+        } else {
+          defaultClose();
+        }
+      });
+      menu.appendChild(btn);
+    }
+
+    // Wire up hamburger buttons to open the menu
+    document.querySelectorAll(".nav-ham, .nav-ham *").forEach((el) => {
+      el.addEventListener("click", (e) => {
+        // find menu and open it by adding class 'open' (CSS handles animation)
+        const m = document.getElementById("mobile-menu");
+        if (!m) return;
+        m.classList.add("open");
+      });
+    });
+  })();
   installQuoteSubmit(api);
   void fetchAndApplySiteSettings(api);
 
